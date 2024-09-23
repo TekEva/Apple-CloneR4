@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+ /*...........   header style start ........  */
+.header-section{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    position: fixed;
+}
+.nav-bar{
+    width: 1000px;
+    margin: 0 auto;
+}
+header ul{
+    padding-top: 12px;
+ }
+header ul li a{    
+    color: #fff;
+    font-weight: 200;
+    font-size: 0.75em;
+    text-decoration: none;
+    opacity: 0.68;
+ }
+ header ul li a:hover{
+    opacity: 1;
+ }
+header ul li a img{
+    width: 18px;
+    height: auto;
+}
+.main-logo a{
+    opacity: 0.82;
+}
+ /*...........   header style end ........  */
+/*...........   first section style start ........  */
+.first-section{
+    height: 715px;
+}
+.container{
+    padding-top: 25px;
+}
+.inch-text1{
+    font-size: .85em;
+}
+.bold-text{
+    font-weight: 700;
+    font-size: 56px;
+}
+.descriptive-text{
+    font-size: 2em;
+}
+.buttons-div{
+    display: flex;
+    margin: 13px 0;
+    justify-content: center;
+}
+.buttons-div a{
+    color: #06c;
+    padding-left: 30px;
+    text-decoration: none;
+}
+.buttons-div a:hover{
+    color: #000000;
+}
+/*...........   first section style end ........  */
+/*...........   second section style start ........  */
+.second-section{
+    height: 715px;
+    background-image: url("../images/home/iphone11-pro-bg.jpg");
+    padding: 65px 20px;
+    color: rgb(255, 255, 255);
+}
+.container2{
+    padding-top: 0;
+}
+.bold-text1{
+    font-weight: 600;
+    font-size: 56px;
+    padding-top: 10px;
+}
+.descriptive-text1{
+    font-size: 26px;
+    padding: 10px 0;
+}
+.price-text{
+    color: #86868b;
+    font-size: 0.85em;
+}
+.bgwhite a:hover{
+    color: #fff;
+}
+/*...........   second section style end ........  */
+/*...........   third section style start ........  */
+.third-section{
+    height: 715px;
+    background-image: url("../images/home/iphone11-bg.jpg");
+    padding: 65px 20px;
+ }
+ /*...........   third section style end ........  */
+ /*...........   fourth section style start ........  */
+.fourth-container{
+    padding-top: 20px;
+}
+.fourth-first, .fourth-second, .fifth{
+    width: 49.5%;
+    height: 580px;
+    margin-top: 40px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.fourth-first{
+    background-image: url("../images/home/watch-series-5.jpg");
+}
+.fourth-second{
+    background-image: url("../images/home/apple-card.jpg");
+}
+.logo-holder{
+    margin-bottom: 10px;
+}
+.mar-top{
+    margin-top: 30px;
+}
+ /*...........   fourth section style end ........  */
+ /*...........   fifth section style start ........  */
+ .fifth-container{
+    height: 650px;
+    padding-top: 20px;
+}
+.fifth-first{
+    background-image: url("../images/home/apple-tv-background.jpg");
+}
+.fifth-second{
+    background-color: #000000;
+    color: #fff;
+}
+.fifth-first, .fifth-second{
+    margin-top: 15px;
+    height: 100%;
+}
+.bold-text1{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px 0 20px;
+}
+.descr1{
+    padding: 0 0 10px;
+  }
+.fifth-div{
+    margin-bottom: 50px;
+  }
+.logo-holder1{
+    padding: 45px 0 195px;
+}
+.logo-holder2{
+    padding: 0 0 195px;
+}
+.bottom-link a{
+    text-decoration: none;
+    font-size: 0.85em;
+    color: rgb(7, 32, 106);
+}
+.bottom-link a:hover{
+    color: rgb(199, 52, 52);
+}
+ /*...........   fifth section style end ........  */
+ /*...........   sixth section style start ........  */
+.sixth-section{
+    height: 660px;
+}
+.sixth-first, .sixth-second{
+    width: 49.5%;
+    height: 100%;
+    padding-top: 70px;
+    background-color: #fafafa;
+}
+.bold-text6{
+    font-weight: 700;
+    font-size: 45px;
+}
+.descriptive-text6{
+    padding: 10px;
+ }
+ .images-div6{
+    padding-top: 40px;
+ }
+ .sixth-second{
+    background-image: url("../images/home/new-ipad.jpg");
+ }
+ .pad15{
+    padding:0 0 15px;
+ }
+  /*...........   sixth section style end ........  */
+ /*...........   footer section style start ........  */
+.footer-section{
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    font-size: .65em;
+}
+ .footer-container{
+    width: 990px;
+    padding: 0 10px;
+    margin: 0 auto;
+ }
+ .para-text{
+    color: #86868b;
+    padding: 17px 0 20px;
+ }
+ .para-text a{
+    text-decoration: none;
+    color: #515154;
+ }
+ .para-text a:hover{
+    text-decoration: underline;
+ }
+ .links-div{
+    padding-top: 20px;
+ }
+ .links-div h3{
+    font-size: 12px;
+    font-weight: 600;
+}
+  .links-div ul{
+    list-style: none;
+    padding-bottom: 20px;
+  }
+  .links-div ul li{
+    padding: 5px 0;
+    font-size: 0.9em;
+  }
+ .links-div ul li a{
+    color: #515154;
+    text-decoration: none;
+ }
+ .links-div ul li a:hover{
+    text-decoration: underline;
+ }
+ footer h3{
+    font-weight: bold;
+  }
+  .one-line{
+    padding-bottom: 20px;
+  }
+  .one-line a{
+    text-decoration: none;
+    color: #06c;
+  }
+  .one-line a:hover{
+    text-decoration: underline;
+  }
+  .last-footer{
+    padding: 10px 0 20px;
+  }
+  .links ul{
+    list-style: none;
+    padding-bottom: 20px;
+  }
+  .links ul li a{
+    text-decoration: none;
+    padding: 0 5px;
+    color: #515154;
+  }
+   .links ul li a:hover{
+    text-decoration: underline;
+   }
+  .flag div{
+    padding-left: 5px;
+  }
+/* ....... shorten code  .......*/
+.display-flex{
+    display: flex;
+}
+.width-hundred{
+    width: 100%;
+}
+.text-align-center{
+    text-align: center;
+}
+.background-commen{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.juCon-spaBtn{
+    justify-content: space-between;
+}
